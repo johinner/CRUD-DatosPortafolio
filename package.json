@@ -1,0 +1,30 @@
+{
+  "name": "API-JSON",
+  "version": "1.0.0",
+  "description": "Nodejs Mongodb REST API CRUD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "clean": "rm -rf uploads"
+  },
+  "keywords": [],
+  "author": "Johinner Madariaga Corpas",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "fs-extra": "^10.1.0",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
