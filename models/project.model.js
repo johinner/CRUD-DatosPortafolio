@@ -23,7 +23,12 @@ const projectSchema = new mongoose.Schema(
     repository: {
       type: String,
       trim: true
-    }
+    },
+    image:{
+      type: Object,
+      secure_url: String,
+      public_id: String
+    } 
   }
 );
 
