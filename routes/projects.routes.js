@@ -4,7 +4,7 @@ import {postProjects} from "../controllers/projects.control.post.js";
 import {putProjects} from "../controllers/projects.control.put.js";
 import {deleteProjects} from "../controllers/projects.control.delete.js";
 
-import fileUpload from "express-fileupload"; 
+import fileUpload from "express-fileupload";
 
 const router = Router();
 
